@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page not found — The Uncomanor</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="/assets/uncomanor-mark.png" type="image/png">
+<link rel="stylesheet" href="/style.css">
+<style>
+  .missing {
+    min-height: 78vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 5rem 0;
+  }
+  .missing img {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto 1.5rem;
+    opacity: 0.9;
+  }
+  .missing h1 {
+    font-size: clamp(2.2rem, 6vw, 4rem);
+    line-height: 1.02;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    margin: 1rem auto 1.25rem;
+    max-width: 18ch;
+  }
+  .missing p {
+    max-width: 46ch;
+    margin: 0 auto 2rem;
+    color: var(--muted);
+  }
+  .missing a.button {
+    display: inline-block;
+    font-family: var(--mono);
+    font-size: 0.6rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid var(--ink);
+    padding: 0.8rem 1.25rem;
+  }
+  .missing a.button:hover {
+    background: var(--ink);
+    color: var(--cream);
+  }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap topbar__inner">
+    <p>An archive of The Uncomanor</p>
+    <p class="topbar__dates">Est. 2020 <span aria-hidden="true">·</span> Closed 2022</p>
+  </div>
+</header>
+<main class="missing wrap">
+  <div>
+    <img src="/assets/uncomanor-mark.png" alt="" width="64" height="64">
+    <p class="section-no">Error 404</p>
+    <h1>This page has joined the rest of the archive.</h1>
+    <p>The story you were looking for was never published, has been lost, or went down with the website. The archive is still here.</p>
+    <a class="button" href="/">Return to the archive</a>
+  </div>
+</main>
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <div class="footer__brand">
+      <img src="/assets/uncomanor-mark.png" alt="" width="36" height="36">
+      <p>The Uncomanor<br><span>News, Politics, and Culture</span></p>
+    </div>
+    <p class="footer__note">2020–2022 · An archive maintained by Gabe Sullivan.</p>
+  </div>
+</footer>
+</body>
+</html>
